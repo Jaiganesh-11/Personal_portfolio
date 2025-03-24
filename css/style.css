@@ -315,9 +315,7 @@ a:focus {
 .header .content-inner {
     padding: 100px 30px;
     background: url(../img/profile1.JPG) right bottom no-repeat;
-    background-size: contain;
-    height: auto;
-    width: 100px;
+    background-size: 220px 420px;
 }
 
 .header p {
