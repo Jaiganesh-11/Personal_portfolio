@@ -310,12 +310,15 @@ a:focus {
 .header {
     position: relative;
     background: #ffffff;
+    color: #ffffff;
 }
 
 .header .content-inner {
     padding: 100px 30px;
-    background: url(../img/profile1.JPG) right bottom no-repeat;
-    background-size: 220px 420px;
+    background-image: url(../img/Background.webp);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
 }
 
 .header p {
@@ -360,7 +363,7 @@ a:focus {
     color: #FF6F61;
     font-size: 20px;
     background: #222222;
-    border-radius: 0;
+    border-radius: 10px;
 }
 
 .large-btn .btn:last-child {
